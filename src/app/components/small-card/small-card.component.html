@@ -1,19 +1,24 @@
 <div class="container__small-card">
+
   <div class="container__small-card-content">
     <div class="small-card__photo">
       <img
-        src="https://blog.iprocess.com.br/wp-content/uploads/2021/11/placeholder.png"
+        src="{{ photoCover }}"
         alt=""
         srcset=""
-      />
+      >
     </div>
-    <div class="small-card_title">
-      <h1>
-        <a href=""><h1>Saiu a nova versão de angular</h1></a>
-      </h1>
+
+    <div class="small-card__title">
+      <h1><a [routerLink]="['content', Id]" >{{ cardTitle }}</a></h1>
     </div>
   </div>
+
   <div class="container__small-card__separator">
-    <hr />
+    <hr>
   </div>
+
 </div>
+
+
+

@@ -2,25 +2,22 @@
   width: 700px;
   margin-bottom: 15px;
 }
+
 .container__small-card-content{
   display: flex;
   flex-direction: row;
 }
 
-.small-card__photo > img
-{
+.small-card__photo > img {
   width: 200px;
   min-width: 200px;
-  margin-right:20px;
+  margin-right: 20px;
 }
-.small-card_title{
+
+.small-card__title {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.small-card_title
->h1>a>h1{
-  font-size: 30px;
 }
 
 .container__small-card__separator{
